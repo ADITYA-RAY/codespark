@@ -74,13 +74,13 @@ window.onload = function() {
       <div className="herocenter "><div className="animate">Experince a unique way of learning for aspiring developers <span>!</span></div>
      
       
-  Learn <a href="" className="typewrite" data-period="2000" data-type='[ "HTML", "CSS", "Javascript", "what you require!" ]'>
+  Learn <a href="./public/index.html" className="typewrite" data-period="2000" data-type='[ "HTML", "CSS", "Javascript", "what you require!" ]'>
     <span className="wrap" ></span>
   </a>
 
  </div>
 <div className="moon">
-<img src="moon.png" width="200px"/>
+<img src="moon.png" width="200px" alt=""/>
 </div>
 
   <div className="rocket">

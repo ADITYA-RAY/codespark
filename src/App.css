@@ -130,7 +130,16 @@ height: 200px;
  text-align: center;
  padding: 50px 10px;
 
- 
+}
+.mark4{
+  position: relative;
+ background-color: rgb(52, 0, 100);
+ width: 100%;
+ min-height: 700px;
+ max-height: auto;
+ text-align: center;
+ padding: 50px 10px;
+
 }
 .moon{
   position: absolute;
@@ -232,6 +241,7 @@ animation: move-wave 3s;
 .waveAnimation .waveBottom {
   animation: move_wave 15s linear infinite;
 }
+
 
 
 

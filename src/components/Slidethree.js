@@ -7,10 +7,10 @@ export const Slidethree = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">
-                            <div className="bigtxt">
+                            <div className="bigtxt" data-aos="fade-up">
                                 Make websites in rocket speed with code<l2>Spark</l2> snippets
                             </div>
-                            <button type="button" class="btn btn-outline-primary btn-lg b4">Click here</button>
+                            <button data-aos="fade-up" type="button" class="btn btn-outline-primary btn-lg b4">Click here</button>
                         </div>
                         <div className="col-sm">
                             <div className="rocket">
