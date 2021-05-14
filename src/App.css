@@ -1,38 +1,237 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  background-color: rgb(20, 14, 56);
+  overflow-x: hidden !important;
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*{box-sizing: border-box;}
+l1{
   color: white;
+  font-size: 30px;
+}
+l2{
+  color: rgb(255, 217, 0);
+  font-size: 30px;
+}
+.nav-link,.nav-brand{
+  color: rgb(255, 255, 255) !important;
+}
+.nav-link:hover{
+color: rgb(197, 197, 197) !important;
+ border-radius: 20px;
+}
+.navbar{
+  background-color:rgba(131, 11, 125, 0) ;
+  font-family: 'Comfortaa', cursive !important;
+  transition: 1.5s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.herocenter{
+  padding-top: 250px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: 'Comfortaa', cursive ;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 370px;
+
+}
+.mark{
+  position: absolute;
+  bottom:-200px;
+width: 100%;
+background-color: white;
+height: 200px;
+ 
+}
+.mark2{
+  position: relative;
+ background-color: rgb(255, 255, 255);
+ width: 100%;
+ height: auto;
+ text-align: center;
+ padding-bottom: 100px;
+}
+.cardmark2{
+  width:300px;
+  display: block;
+  border: none;
+  padding: 20px 15px;
+  transition: 1s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cardmark2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+.title.t1{
+  color: #e44d26;
+}
+.title.t2{
+  color: #1f62ae;
+}
+.title.t3{
+  color: #bb9f14;
+}
+.b1{
+  color:#e44d26 ;
+  border-color: #e44d26;
+}
+.b1:hover{
+  background-color: #e44d26;
+  border-color: #e44d26;
+}
+.b2{
+  color:#1f62ae ;
+  border-color: #1f62ae;
+}
+.b2:hover{
+  background-color: #1f62ae;
+  border-color: #1f62ae;
+}
+.b3{
+  color:#bb9f14 ;
+  border-color: #bb9f14;
+}
+.b3:hover{
+  background-color: #bb9f14;
+  border-color: #bb9f14;
+}
+.b4{
+  color:#bb9f14 ;
+  border-color: #bb9f14;
+  width: 200px;
+  margin-top: 40px;
+  float: left;
+}
+.b4:hover{
+  background-color: #bb9f14;
+  border-color: #bb9f14;
+}
+.cardcontent{
+  font-size: 18px;
+  color: rgb(85, 94, 94);
+}
+.mark3{
+  position: relative;
+ background-color: rgb(37, 37, 37);
+ width: 100%;
+ min-height: 700px;
+ max-height: auto;
+ text-align: center;
+ padding: 50px 10px;
+
+ 
+}
+.moon{
+  position: absolute;
+  top: 50px;
+  right: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.col-sm{
+  padding-bottom: 20px;
+}
+
+.typewrite{
+  color: rgb(255, 196, 0);
+}
+
+.bigtxt{
+  margin-top: 70px;
+  font-size: 55px;
+  font-weight: bolder;
+  color: white;
+  text-align: left;
+  font-family: 'Comfortaa', cursive ;
+  line-height: 1.2;
+}
+
+.bigtxt l2{
+  font-size: 60px;
+}
+
+
+
+@keyframes move_wave {
+  0% {
+      transform: translateX(0) translateZ(0) scaleY(1)
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55)
+  }
+  100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1)
   }
 }
+.waveWrapper {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+.waveWrapperInner {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  bottom: -1px;
+  
+}
+.bgTop {
+  z-index: 15;
+  opacity: 0.5;
+}
+.bgMiddle {
+  z-index: 10;
+  opacity: 0.75;
+}
+.bgBottom {
+  z-index: 5;
+}
+.wave {
+  position: absolute;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  transform-origin: center bottom;
+}
+.waveTop {
+  background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+animation: move-wave 3s;
+ -webkit-animation: move-wave 3s;
+ -webkit-animation-delay: 1s;
+ animation-delay: 1s;
+}
+.waveMiddle {
+  background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+  animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+  background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+  animation: move_wave 15s linear infinite;
+}
+
+
+
