@@ -260,6 +260,7 @@ animation: move-wave 3s;
  font-size: 70px;
  width: 100%;
  transition: 2s;
+ padding-right: 10px;
 }
 .m4h:hover{
 letter-spacing: 7px;
