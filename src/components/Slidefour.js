@@ -23,14 +23,14 @@ export const Slidefour = () => {
                                     <span className="sr-only">Next</span>
                                 </a>  
                             </div>
-                            <div id="carouselExampleControls1" className="carousel slide" data-ride="carousel">
+                            <div id="carouselExampleControls1" className="carousel slide" data-ride="carousel" data-interval="false">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
                                         <div className="article-card">
                                             <div className="article-date">
                                                 15th May, 2021
                                                 
-                                              <span className="article-stats">4028 <i class="fas fa-heart"></i> 256 <i class='fas fa-comment'></i></span>
+                                              <span className="article-stats">4028 <i class="fa fa-comment" aria-hidden="true"></i> 233 <i class="fa fa-heart" aria-hidden="true"></i></span>
                                             
                                             </div>
                                             
@@ -45,7 +45,7 @@ export const Slidefour = () => {
                                                 Read more...
                                             </div>
                                             <div className="article-image">
-                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU" alt="" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"  width="100%"alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@ export const Slidefour = () => {
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
-                                              <span className="article-stats">4028 <i class="fas fa-heart"></i> 256 <i class='fas fa-comment'></i></span>
+                                              <span className="article-stats">4028 <i class="fa fa-comment" aria-hidden="true"></i> 233 <i class="fa fa-heart" aria-hidden="true"></i></span>
                                             
                                             </div>
                                             <div className="article-title">
@@ -68,7 +68,7 @@ export const Slidefour = () => {
                                             Read more...
                                             </div>
                                             <div className="article-image">
-                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"alt="" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"width="100%"alt="" />
                                             </div>
                                             
                                         </div>
@@ -78,7 +78,7 @@ export const Slidefour = () => {
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
-                                              <span className="article-stats">4028 <i class="fas fa-heart"></i> 256 <i class='fas fa-comment'></i></span>
+                                              <span className="article-stats">4028 <i class="fa fa-comment" aria-hidden="true"></i> 233 <i class="fa fa-heart" aria-hidden="true"></i></span>
                                             
                                             </div>
                                             <div className="article-title">
@@ -92,7 +92,7 @@ export const Slidefour = () => {
                                             Read more...
                                             </div>
                                             <div className="article-image">
-                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"alt="" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"width="100%"alt="" />
                                             </div>
                                          
                                         </div>
@@ -111,14 +111,14 @@ export const Slidefour = () => {
                                     <span className="sr-only">Next</span>
                                 </a>  
                             </div>
-                            <div id="carouselExampleControls2" className="carousel slide" data-ride="carousel">
+                            <div id="carouselExampleControls2" className="carousel slide" data-ride="carousel" data-interval="false">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
                                         <div className="article-card">
                                             <div className="article-date">
                                                 15th May, 2021
                                                 
-                                              <span className="article-stats">4028 <i class="fas fa-heart"></i> 256 <i class='fas fa-comment'></i></span>
+                                              <span className="article-stats">4028 <i class="fa fa-comment" aria-hidden="true"></i> 233 <i class="fa fa-heart" aria-hidden="true"></i></span>
                                             
                                             </div>
                                             
@@ -133,7 +133,7 @@ export const Slidefour = () => {
                                                 Read more...
                                             </div>
                                             <div className="article-image">
-                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU" alt=""/>
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU" width="100%"alt=""/>
                                             </div>
                                         </div>
                                     </div>
@@ -142,7 +142,7 @@ export const Slidefour = () => {
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
-                                              <span className="article-stats">4028 <i class="fas fa-heart"></i> 256 <i class='fas fa-comment'></i></span>
+                                              <span className="article-stats">4028 <i class="fa fa-comment" aria-hidden="true"></i> 233 <i class="fa fa-heart" aria-hidden="true"></i></span>
                                             
                                             </div>
                                             <div className="article-title">
@@ -156,7 +156,7 @@ export const Slidefour = () => {
                                             Read more...
                                             </div>
                                             <div className="article-image">
-                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"alt="" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"width="100%"alt="" />
                                             </div>
                                             
                                         </div>
@@ -166,7 +166,7 @@ export const Slidefour = () => {
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
-                                              <span className="article-stats">4028 <i class="fas fa-heart"></i> 256 <i class='fas fa-comment'></i></span>
+                                              <span className="article-stats">4028 <i class="fa fa-comment" aria-hidden="true"></i> 233 <i class="fa fa-heart" aria-hidden="true"></i></span>
                                             
                                             </div>
                                             <div className="article-title">
@@ -180,7 +180,7 @@ export const Slidefour = () => {
                                             Read more...
                                             </div>
                                             <div className="article-image">
-                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU" alt=""/>
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU" width="100%"alt=""/>
                                             </div>
                                          
                                         </div>
@@ -199,14 +199,14 @@ export const Slidefour = () => {
                                     <span className="sr-only">Next</span>
                                 </a>  
                             </div>
-                            <div id="carouselExampleControls3" className="carousel slide" data-ride="carousel">
+                            <div id="carouselExampleControls3" className="carousel slide" data-ride="carousel" data-interval="false">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
                                         <div className="article-card">
                                             <div className="article-date">
                                                 15th May, 2021
                                                 
-                                              <span className="article-stats">4028 <i class="fas fa-heart"></i> 256 <i class='fas fa-comment'></i></span>
+                                              <span className="article-stats">4028 <i class="fa fa-comment" aria-hidden="true"></i> 233 <i class="fa fa-heart" aria-hidden="true"></i></span>
                                             
                                             </div>
                                             
@@ -221,7 +221,7 @@ export const Slidefour = () => {
                                                 Read more...
                                             </div>
                                             <div className="article-image">
-                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"alt="" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"width="100%"alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -230,7 +230,7 @@ export const Slidefour = () => {
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
-                                              <span className="article-stats">4028 <i class="fas fa-heart"></i> 256 <i class='fas fa-comment'></i></span>
+                                              <span className="article-stats">4028 <i class="fa fa-comment" aria-hidden="true"></i> 233 <i class="fa fa-heart" aria-hidden="true"></i></span>
                                             
                                             </div>
                                             <div className="article-title">
@@ -244,7 +244,7 @@ export const Slidefour = () => {
                                             Read more...
                                             </div>
                                             <div className="article-image">
-                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"alt="" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"width="100%"alt="" />
                                             </div>
                                             
                                         </div>
@@ -254,7 +254,7 @@ export const Slidefour = () => {
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
-                                              <span className="article-stats">4028 <i class="fas fa-heart"></i> 256 <i class='fas fa-comment'></i></span>
+                                              <span className="article-stats">4028 <i class="fa fa-comment" aria-hidden="true"></i> 233 <i class="fa fa-heart" aria-hidden="true"></i></span>
                                             
                                             </div>
                                             <div className="article-title">
@@ -268,7 +268,7 @@ export const Slidefour = () => {
                                             Read more...
                                             </div>
                                             <div className="article-image">
-                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"alt="" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKuLgsel-1tFC1myiPqhiwVm883cpYdiEgg&usqp=CAU"width="100%"alt="" />
                                             </div>
                                          
                                         </div>

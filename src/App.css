@@ -294,6 +294,7 @@ letter-spacing: 7px;
   width: 80%;
   text-align: left;
   transition: 0.8s ease-in-out;
+  margin-bottom: 20px;
 }
 .article-card:hover{
   transform: scale(1.04);
