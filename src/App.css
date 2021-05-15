@@ -2,7 +2,7 @@ body{
   margin: 0;
   background-color: rgb(20, 14, 56);
   overflow-x: hidden !important;
- 
+  font-family: 'Comfortaa', cursive !important;
 }
 *{box-sizing: border-box;}
 l1{
@@ -65,6 +65,13 @@ height: 200px;
   margin-right: auto;
 }
 .cardmark2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+.card{
+  transition: 1s ease-in-out;
+}
+.card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   transform: scale(1.05);
 }
@@ -133,10 +140,8 @@ height: 200px;
 }
 .mark4{
   position: relative;
- background-color: rgb(52, 0, 100);
+ background-color: rgb(37, 37, 37);
  width: 100%;
- min-height: 700px;
- max-height: auto;
  text-align: center;
  padding: 50px 10px;
 
@@ -245,3 +250,109 @@ animation: move-wave 3s;
 
 
 
+
+
+
+.m4h{
+ position: absolute;
+ text-align: center;
+ color: #94908f1a;
+ font-size: 70px;
+ width: 100%;
+ transition: 2s;
+}
+.m4h:hover{
+letter-spacing: 7px;
+}
+.m4hs{
+  text-align: center;
+  color: #c59d19d2;
+  font-size: 40px;
+  width: 100%;
+  margin-top: 23px;
+  margin-bottom: 100px;
+ }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*article cards-------------------------*/
+
+.article-card{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: left;
+  transition: 0.8s ease-in-out;
+}
+.article-card:hover{
+  transform: scale(1.04);
+}
+.article-title{
+  font-size:20px;
+  color: #bb9f14;
+  padding: 5px;
+}
+
+.article-intro{
+  font-size: 15px;
+  color: rgb(176, 199, 199);
+  padding: 5px;
+  
+}
+
+.article-image{
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  transition:0.8s;
+}
+
+.article-card:hover{
+  filter: saturate(8);
+}
+.article-date{
+  color: rgba(255, 0, 234, 0.568);
+  font-size: 12px;
+  padding: 5px;
+}
+.article-stats{
+  float: right;
+}
+.article-readmore-btn{
+float: right;
+  color: white;
+  border-radius: 4px;
+  width: auto;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+.article-readmore-btn:hover{
+  color: rgba(255, 0, 234, 0.568);
+}
+
+.article-section{
+  width: 80%;
+  background-color: rgba(255, 0, 221, 0.233);
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  color: #bb9f14;
+  font-size: 20px;
+}
+.carousel-control-next,.carousel-control-prev{position:absolute;}
