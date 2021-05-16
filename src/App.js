@@ -9,6 +9,7 @@ import {Hero} from "./components/Hero";
 import {Mainco} from "./components/Mainco";
 import {Slidethree} from "./components/Slidethree";
 import {Slidefour} from "./components/Slidefour";
+import {Footer} from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
     <Mainco/>
     <Slidethree/>
     <Slidefour/>
+    <Footer/>
     
     </>
   );

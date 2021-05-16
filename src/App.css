@@ -358,3 +358,16 @@ float: right;
   font-size: 20px;
 }
 .carousel-control-next,.carousel-control-prev{position:absolute;}
+
+
+
+.footer{
+  position: relative;
+  background-color: rgb(37, 37, 37);
+  width: 100%;
+  text-align: center;
+  padding: 50px 10px;
+}
+.footertxt{
+  color: #bb9f14;
+}
