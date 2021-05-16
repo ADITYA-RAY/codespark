@@ -13,7 +13,7 @@ export const Slidefour = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">
-                        <div className="article-section">#Trending
+                        <div className="article-section"data-aos="fade-up">#Trending
                                 <a className="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
                                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span className="sr-only">Previous</span>
@@ -26,7 +26,7 @@ export const Slidefour = () => {
                             <div id="carouselExampleControls1" className="carousel slide" data-ride="carousel" data-interval="false">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <div className="article-card">
+                                        <div className="article-card"data-aos="fade-up" >
                                             <div className="article-date">
                                                 15th May, 2021
                                                 
@@ -50,7 +50,7 @@ export const Slidefour = () => {
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className="article-card">
+                                        <div className="article-card"data-aos="fade-up">
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
@@ -74,7 +74,7 @@ export const Slidefour = () => {
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className="article-card">
+                                        <div className="article-card"data-aos="fade-up">
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
@@ -101,7 +101,7 @@ export const Slidefour = () => {
                             </div>
                         </div>
                         <div className="col-sm">
-                        <div className="article-section">#Latest
+                        <div className="article-section"data-aos="fade-up">#Latest
                                 <a className="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
                                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span className="sr-only">Previous</span>
@@ -114,7 +114,7 @@ export const Slidefour = () => {
                             <div id="carouselExampleControls2" className="carousel slide" data-ride="carousel" data-interval="false">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <div className="article-card">
+                                        <div className="article-card"data-aos="fade-up">
                                             <div className="article-date">
                                                 15th May, 2021
                                                 
@@ -138,7 +138,7 @@ export const Slidefour = () => {
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className="article-card">
+                                        <div className="article-card"data-aos="fade-up">
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
@@ -162,7 +162,7 @@ export const Slidefour = () => {
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className="article-card">
+                                        <div className="article-card"data-aos="fade-up">
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
@@ -189,7 +189,7 @@ export const Slidefour = () => {
                             </div>
                         </div>
                         <div className="col-sm">
-                        <div className="article-section">#Popular
+                        <div className="article-section"data-aos="fade-up">#Popular
                                 <a className="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
                                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span className="sr-only">Previous</span>
@@ -202,7 +202,7 @@ export const Slidefour = () => {
                             <div id="carouselExampleControls3" className="carousel slide" data-ride="carousel" data-interval="false">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <div className="article-card">
+                                        <div className="article-card"data-aos="fade-up">
                                             <div className="article-date">
                                                 15th May, 2021
                                                 
@@ -226,7 +226,7 @@ export const Slidefour = () => {
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className="article-card">
+                                        <div className="article-card"data-aos="fade-up">
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
@@ -250,7 +250,7 @@ export const Slidefour = () => {
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className="article-card">
+                                        <div className="article-card"data-aos="fade-up">
                                         <div className="article-date">
                                                 15th May, 2021
                                                 
