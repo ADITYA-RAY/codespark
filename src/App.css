@@ -1,10 +1,23 @@
-body{
+body{margin: 0;background-color: rgb(20, 14, 56);overflow-x: hidden !important;font-family: 'Comfortaa', cursive !important;
   margin: 0;
-  background-color: rgb(20, 14, 56);
-  overflow-x: hidden !important;
-  font-family: 'Comfortaa', cursive !important;
+}
+html {
+  scroll-behavior: smooth;
 }
 *{box-sizing: border-box;}
+.learnbtn{
+  text-decoration: none;
+  background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid ;
+    border-radius: 4px;
+  
+}
+.learnbtn:hover{
+  color: white;
+  text-decoration: none;
+}
+
 l1{
   color: white;
   font-size: 30px;
@@ -68,10 +81,10 @@ height: 200px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   transform: scale(1.05);
 }
-.card{
+.mainco.card{
   transition: 1s ease-in-out;
 }
-.card:hover{
+.mainco.card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   transform: scale(1.05);
 }
@@ -370,4 +383,96 @@ float: right;
 }
 .footertxt{
   color: #bb9f14;
+}
+
+
+.content-accordion {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 20px;
+}
+
+.content-accordion .closebtn {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#mainHTML1 {
+  transition: margin-left .5s;
+  padding: 16px;
+  background-color: white;
+  margin-left: 25%;
+}
+
+@media screen and (max-height: 450px) {
+  .content-accordion {padding-top: 15px;}
+  .content-accordion a {font-size: 18px;}
+}
+.HTML1-side-section{
+  position: fixed;
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  left: 0;
+  height: 89%;
+  overflow-x: hidden;
+  z-index: 1;
+  transition: 0.2s ease-in-out;
+}
+
+/* width */
+.HTML1-side-section::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.HTML1-side-section::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.473); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.HTML1-side-section::-webkit-scrollbar-thumb {
+  background: rgba(75, 72, 72, 0.692); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.HTML1-side-section::-webkit-scrollbar-thumb:hover {
+  background: #7a00b3a2; 
+}
+.HTML1-main-content{
+  margin-left: 25%;
+  padding: 0px;
+  background-color: white;
+}
+@media screen and (max-width: 450px) {
+  .HTML1-side-section{
+    width: 0;
+  }
+  .HTML1-main-content{
+    margin-left: 0;
+  }
+}
+
+.HTMLnav{
+  background-color: rgba(131, 11, 125, 1) !important;
+  margin: 0;
+  height: 70px !important;
+  z-index: 2;
+}
+
+#HTML1-side-section-btn{
+  font-size: 30px;
 }

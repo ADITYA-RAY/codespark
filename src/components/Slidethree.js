@@ -3,7 +3,7 @@ import React from 'react'
 export const Slidethree = () => {
     return (
         <div>
-            <div className="mark3">
+            <div className="mark3" id="snippets">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">

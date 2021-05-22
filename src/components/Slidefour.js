@@ -7,7 +7,7 @@ export const Slidefour = () => {
         <div>
 
 
-            <div className="mark4">
+            <div className="mark4" id="articles">
                 <div className="m4h">KNOWLEDGE</div>
                 <div className="m4hs">ARTICLES</div>
                 <div className="container">
