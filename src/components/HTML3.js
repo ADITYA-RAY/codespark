@@ -23,7 +23,7 @@ export const HTML3 = () => {
                     <div class="col-sm">
                     <div className="HTMLCardIndex">
                             <div className="HTMLCardModuleno">Module 1</div>
-                           <p style={{paddingTop:'20px',fontSize:'17px'}}> <i className="fa fa-clock" style={{color:'rgb(111, 0, 202)',fontSize:'22px',verticalAlign:'top'}}></i> Estimated time : 4-5 minutes</p>
+                           <p style={{paddingTop:'20px',fontSize:'17px'}}> <i className="fa fa-clock-o" style={{color:'rgb(111, 0, 202)',fontSize:'22px',verticalAlign:'top'}}></i> Estimated time : 4-5 minutes</p>
                            <p style={{fontSize:'17px'}}> <i className="fa fa-cubes" style={{color:'rgb(111, 0, 202)',fontSize:'22px',verticalAlign:'top'}}></i> Level : <span style={{color:'#0ab800'}}>Basic</span></p>
                            <p style={{fontSize:'17px'}}> <i className="fa fa-star" style={{color:'rgb(111, 0, 202)',fontSize:'22px',verticalAlign:'top'}}></i> points : 10</p>
                            <a href="/" className="startbtn">Start</a>
