@@ -5,7 +5,7 @@ export const HTML1 = () => {
 
 function showIndex(){ 
   var w=document.getElementById("HTML1-side-section").style.width;
-  if(w=='0%'||w==''){
+  if(w==='0%'||w===''){
 document.getElementById("HTML1-side-section").style.width="100%";
 document.getElementById("HTML1-side-section-btn").innerHTML="<i class='fa fa-close' style={{ fontSize: '30px', color: 'pink', paddingRight: '10px' }}></i>";
   }else{
