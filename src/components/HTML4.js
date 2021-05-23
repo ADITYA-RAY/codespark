@@ -7,7 +7,7 @@ export const HTML4 = () => {
     return (
         <div>
             
-            <div className="container" id="HTML4">
+            <div className="container" >
             <div id="tab1" className="tabcontent">
             <div className="HTMLCardListIndex">What is HTML? </div>
            <li> HTML stands for Hyper Text Markup Language </li>
