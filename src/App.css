@@ -433,7 +433,7 @@ float: right;
 
 /* width */
 .HTML1-side-section::-webkit-scrollbar {
-  width: 7px;
+  width: 5px;
 }
 
 /* Track */
@@ -444,7 +444,7 @@ float: right;
  
 /* Handle */
 .HTML1-side-section::-webkit-scrollbar-thumb {
-  background: rgba(75, 72, 72, 0.692); 
+  background: rgba(75, 72, 72, 0.11); 
   border-radius: 10px;
 }
 
@@ -454,17 +454,10 @@ float: right;
 }
 .HTML1-main-content{
   margin-left: 25%;
-  padding: 0px;
+  padding:100px 20px;
   background-color: white;
 }
-@media screen and (max-width: 450px) {
-  .HTML1-side-section{
-    width: 0;
-  }
-  .HTML1-main-content{
-    margin-left: 0;
-  }
-}
+
 
 .HTMLnav{
   background-color: rgba(131, 11, 125, 1) !important;
@@ -475,4 +468,93 @@ float: right;
 
 #HTML1-side-section-btn{
   font-size: 30px;
+}
+
+@media screen and (min-width: 800px) {
+
+  #HTML1-side-section-btn{
+   display: none;
+  }
+  .nav-right-edit{
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .HTML1-side-section{
+    width: 0;
+  }
+  .HTML1-main-content{
+    margin-left: 0;
+  }
+  .logoHTMLpage{
+    display: none;
+  }
+  
+  .nav-right-edit{
+   width: 100%;
+   text-align: center;
+  }
+
+}
+.HTMLCardIndex{
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 300px;
+  padding: 20px;
+}
+.HTMLCardIndex:hover{
+  box-shadow: 0 8px 16px 0 rgba(110, 32, 97, 0.2);
+}
+.HTMLCardModuleno{
+  display: block;
+  padding: 3px 7px;
+  background-color: rgb(0, 202, 142);
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  width: fit-content;
+  
+}
+.HTMLCardModulepts{
+  display: block;
+  padding: 3px 7px;
+  background-color: rgb(111, 0, 202);
+  color: white;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  width: fit-content;
+  float: right;
+}
+.HTMLCardListIndex{
+  display: block;
+ padding: 6px;
+ font-size: 20px;
+ color: rgb(44, 44, 43);
+ text-align: left;
+ border-bottom: 2px solid rgb(0, 202, 142);
+ width: fit-content;
+ margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:800px) {
+  .HTML1-main-content{
+    padding:100px 0px;
+  }
+}
+.startbtn{
+  background-color: rgb(111, 0, 202);
+  font-size: 23px;
+  color: white;
+  border-radius: 10px;
+  padding: 3px 12px;
+  text-decoration: none;
+  float: right;
+}
+.startbtn:hover{
+text-decoration: none;
+color: white;
+background-color: rgba(111, 0, 202, 0.726);
 }

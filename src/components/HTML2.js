@@ -14,7 +14,7 @@ export const HTML2 = () => {
             <div className="card-header" id="headingOne">
               <h2 className="mb-0">
                 <button className="btn btn-link btn-block text-left" style={accordionHeadBtn} type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Collapsible Group Item #1
+                Introduction to HTML
         </button>
               </h2>
             </div>

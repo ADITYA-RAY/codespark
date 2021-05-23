@@ -8,9 +8,11 @@ export const LearnHTML = () => {
         <div>
              <HTML1/>
             <HTML2/>
-           
-            
+            <div className="HTML1-main-content">
             <HTML3/>
+            </div>
+            
+        
            
         </div>
     )
