@@ -21,7 +21,10 @@ export const HTML2 = () => {
 
             <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div className="card-body">
-                Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> className.
+              <li> What is HTML?</li>
+                            <li> History of HTML</li>
+                            <li>Developement setup</li>
+                            <li>An basic HTML page</li>
       </div>
             </div>
           </div>

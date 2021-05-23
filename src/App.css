@@ -558,3 +558,24 @@ text-decoration: none;
 color: white;
 background-color: rgba(111, 0, 202, 0.726);
 }
+
+.tablinks:hover{
+  color: rgba(111, 0, 202, 0.726) !important;
+  cursor: pointer;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+.tabcontent:hover{
+  box-shadow: 0 8px 16px 0 rgba(110, 32, 97, 0.2);
+}
+
+.HTMLcard-active{
+  color: rgba(111, 0, 202, 0.726) !important;
+
+}

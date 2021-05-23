@@ -1,6 +1,11 @@
 import React from 'react'
 
 export const HTML3 = () => {
+   
+    const sendopenCity = (cityName,j) => {
+        window.openCity(cityName,j);
+
+    };
     return (
         <div>
 
@@ -12,10 +17,10 @@ export const HTML3 = () => {
                             <div className="HTMLCardModuleno">Module 1</div>
 
                             <div className="HTMLCardListIndex"><i className="fa fa-code" style={{color:'rgb(111, 0, 202)'}}> </i > Introduction to HTML</div>
-                            <li>What is HTML?</li>
-                            <li>History of HTML</li>
-                            <li>Developement setup</li>
-                            <li>An basic HTML page</li>
+                            <li> <a className="tablinks" onClick={() => { sendopenCity("tab1",'0') }} id="defaultOpen">What is HTML?</a></li>
+                            <li> <a className="tablinks" onClick={() => { sendopenCity("tab2",'1') }} >History of HTML</a></li>
+                            <li><a className="tablinks" onClick={() => { sendopenCity("tab3",'2') }} >Developement setup</a></li>
+                            <li><a className="tablinks" onClick={() => { sendopenCity("tab4",'3') }} >An basic HTML page</a></li>
 
 
                         </div>
@@ -31,13 +36,7 @@ export const HTML3 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="HTMLCardIndex">
-                    <div className="HTMLCardModulepts">10 Pts</div>
-                    <div className="HTMLCardModuleno">Module 1</div>
-
-                    <div className="HTMLCardListIndex"><i className="fa fa-list-ul"></i> Contents</div>
-
-                </div>
+                
             </div>
 
         </div>
