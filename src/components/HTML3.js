@@ -17,10 +17,10 @@ export const HTML3 = () => {
                             <div className="HTMLCardModuleno">Module 1</div>
 
                             <div className="HTMLCardListIndex"><i className="fa fa-code" style={{color:'rgb(111, 0, 202)'}}> </i > Introduction to HTML</div>
-                            <li> <a className="tablinks" href="/" onClick={() => { sendopenCity("tab1",'0') }} id="defaultOpen">What is HTML?</a></li>
-                            <li> <a className="tablinks" href="/" onClick={() => { sendopenCity("tab2",'1') }} >History of HTML</a></li>
-                            <li><a className="tablinks" href="/" onClick={() => { sendopenCity("tab3",'2') }} >Developement setup</a></li>
-                            <li><a className="tablinks" href="/" onClick={() => { sendopenCity("tab4",'3') }} >An basic HTML page</a></li>
+                            <li> <a className="tablinks" href="#HTML4" onClick={() => { sendopenCity("tab1",'0') }} id="defaultOpen">What is HTML?</a></li>
+                            <li> <a className="tablinks" href="#HTML4" onClick={() => { sendopenCity("tab2",'1') }} >History of HTML</a></li>
+                            <li><a className="tablinks" href="#HTML4" onClick={() => { sendopenCity("tab3",'2') }} >Developement setup</a></li>
+                            <li><a className="tablinks" href="#HTML4" onClick={() => { sendopenCity("tab4",'3') }} >An basic HTML page</a></li>
 
 
                         </div>
