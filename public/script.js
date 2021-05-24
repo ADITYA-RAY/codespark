@@ -35,7 +35,9 @@ function autoTab(cityName, j) {
 
 
 }
-
+for(var i=5;i<=100;i+=4){
+  document.getElementById("tab"+i).style.display="block";
+}
 window.onload = function () {
   document.getElementById("autodefaultOpen").click();
   document.getElementById("defaultOpen").click();

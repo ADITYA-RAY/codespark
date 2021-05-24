@@ -3,19 +3,19 @@ import React from 'react'
 export const HTML3 = (props) => {
 
     const sendopenCity = (cityName, j) => {
-        if(j==0) {
+        if(j==='0') {
             cityName=props.infot.tab1;
             j=props.infot.tab1no
     }
-    if(j==1) {
+    if(j==='1') {
         cityName=props.infot.tab2;
         j=props.infot.tab2no
 }
-if(j==2) {
+if(j==='2') {
     cityName=props.infot.tab3;
     j=props.infot.tab3no
 }
-if(j==3) {
+if(j==='3') {
     cityName=props.infot.tab4;
     j=props.infot.tab4no
 }
