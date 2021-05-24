@@ -456,6 +456,7 @@ float: right;
   margin-left: 25%;
   padding:100px 20px;
   background-color: white;
+  min-height: 700px;
 }
 
 
@@ -558,7 +559,9 @@ text-decoration: none;
 color: white;
 background-color: rgba(111, 0, 202, 0.726);
 }
-
+.tablinks{
+  color: rgba(22, 22, 22, 0.726) !important;
+}
 .tablinks:hover{
   color: rgba(111, 0, 202, 0.726) !important;
   cursor: pointer;
@@ -570,6 +573,7 @@ background-color: rgba(111, 0, 202, 0.726);
   display: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
+  color: rgb(70, 70, 70);
 }
 .tabcontent:hover{
   box-shadow: 0 8px 16px 0 rgba(110, 32, 97, 0.2);
@@ -577,5 +581,32 @@ background-color: rgba(111, 0, 202, 0.726);
 
 .HTMLcard-active{
   color: rgba(111, 0, 202, 0.726) !important;
+
+}
+.nobullets{
+  list-style-type: none;
+}
+.nobullets li{
+  padding-left: 10px;
+  text-indent: -10px;
+}
+
+/* Style the tab */
+.autotab {
+  overflow: hidden;
+}
+.autotablinks{
+text-decoration: none;
+ 
+}
+
+/* Create an active/current tablink class */
+.autotab a.autoactive {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.autotabcontent {
+  display: none;
 
 }
