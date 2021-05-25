@@ -407,7 +407,17 @@ float: right;
   font-size: 36px;
   margin-left: 50px;
 }
-
+.autotablinks {
+  font-size: 15px; 
+text-decoration: none;
+color:rgb(111, 0, 202);
+padding: 20px 200px 20px 50px ;
+margin-left: -70px;
+}
+.autotablinks:hover {
+text-decoration: none;
+color: rgb(0, 202, 142);
+}
 #mainHTML1 {
   transition: margin-left .5s;
   padding: 16px;
@@ -456,15 +466,19 @@ float: right;
   margin-left: 25%;
   padding:100px 20px;
   background-color: white;
-  min-height: 700px;
+  min-height: 800px;
 }
 
-
+.todobgwhite{
+  background-color: white;
+}
 .HTMLnav{
-  background-color: rgba(131, 11, 125, 1) !important;
+  background-color: rgb(131, 11, 125) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 0;
   height: 70px !important;
   z-index: 2;
+  padding-left:50px ;
 }
 
 #HTML1-side-section-btn{

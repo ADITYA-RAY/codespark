@@ -11,10 +11,13 @@ export const LearnHTML = () => {
 
     return (
         <div>
+          
+            <div className="todobgwhite">
              <HTML1/>
              <HTML2/>
              <HTML6 />
-    
+             
+    </div>
             
         
            

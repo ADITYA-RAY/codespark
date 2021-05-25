@@ -3,25 +3,29 @@ import React from 'react'
 export const HTML3 = (props) => {
 
     const sendopenCity = (cityName, j) => {
-        if(j==='0') {
-            cityName=props.infot.tab1;
-            j=props.infot.tab1no
-    }
-    if(j==='1') {
-        cityName=props.infot.tab2;
-        j=props.infot.tab2no
-}
-if(j==='2') {
-    cityName=props.infot.tab3;
-    j=props.infot.tab3no
-}
-if(j==='3') {
-    cityName=props.infot.tab4;
-    j=props.infot.tab4no
-}
+        if (j === '0') {
+            cityName = props.infot.tab1;
+            j = props.infot.tab1no
+        }
+        if (j === '1') {
+            cityName = props.infot.tab2;
+            j = props.infot.tab2no
+        }
+        if (j === '2') {
+            cityName = props.infot.tab3;
+            j = props.infot.tab3no
+        }
+        if (j === '3') {
+            cityName = props.infot.tab4;
+            j = props.infot.tab4no
+        }
         window.openCity(cityName, j);
 
     };
+    const fullscreentrigger = () => {
+        window.openFullscreen();
+    };
+
     return (
         <div>
 
@@ -48,14 +52,14 @@ if(j==='3') {
                             <p style={{ paddingTop: '20px', fontSize: '17px' }}> <i className="fa fa-clock-o" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> Estimated time : {props.infot.time} minutes</p>
                             <p style={{ fontSize: '17px' }}> <i className="fa fa-cubes" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> Level : <span style={{ color: '#0ab800' }}>{props.infot.level}</span></p>
                             <p style={{ fontSize: '17px' }}> <i className="fa fa-star" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> points : {props.infot.ptsn}</p>
-                            <a href="/" className="startbtn">Start</a>
+                            <a href="#learnmodule" className="startbtn" onClick={() => { fullscreentrigger() }}>Start</a>
 
                         </div>
                     </div>
                 </div>
 
 
-                
+
 
             </div>
 
