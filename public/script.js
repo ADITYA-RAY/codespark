@@ -23,6 +23,7 @@ function openCity(cityName, j) {
 
 var elem = document.documentElement;
 function openFullscreen() {
+  
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
   } else if (elem.webkitRequestFullscreen) { /* Safari */
@@ -30,9 +31,13 @@ function openFullscreen() {
   } else if (elem.msRequestFullscreen) { /* IE11 */
     elem.msRequestFullscreen();
   }
+  document.getElementsByClassName("mainmodule")[0].style.display="block";
+  var element = document.getElementById("allbody");
+  element.classList.add("onmoduleopen");
 }
 
 function closeFullscreen() {
+  document.getElementsByClassName("mainmodule")[0].style.display="none";
   if (document.exitFullscreen) {
     document.exitFullscreen();
   } else if (document.webkitExitFullscreen) { /* Safari */
@@ -40,6 +45,9 @@ function closeFullscreen() {
   } else if (document.msExitFullscreen) { /* IE11 */
     document.msExitFullscreen();
   }
+ 
+  var element = document.getElementById("allbody");
+  element.classList.remove("onmoduleopen");
 }
 
 

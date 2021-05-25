@@ -22,8 +22,14 @@ export const HTML3 = (props) => {
         window.openCity(cityName, j);
 
     };
+    
     const fullscreentrigger = () => {
         window.openFullscreen();
+        
+    };
+    const fullscreenclose = () => {
+        window.closeFullscreen();
+        
     };
 
     return (
@@ -59,8 +65,11 @@ export const HTML3 = (props) => {
                 </div>
 
 
-
-
+             
+            </div>
+            <div className="mainmodule">
+                <h1 style={{ color: 'white', padding: '20px' }}> Welcome to codeSpark module</h1>
+                <button onClick={() => { fullscreenclose() }}>Close Fullscreen</button>
             </div>
 
         </div>

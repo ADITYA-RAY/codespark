@@ -152,7 +152,6 @@ export const HTML6 = () => {
                         <HTML4 infot={HTML3obj5} />
                 </div>
             </div>
-
         </div>
     )
 }

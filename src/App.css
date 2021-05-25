@@ -622,5 +622,20 @@ text-decoration: none;
 /* Style the tab content */
 .autotabcontent {
   display: none;
+}
 
+
+.mainmodule{
+  display: none;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  background-color: rgb(37, 37, 37);
+}
+.onmoduleopen::-webkit-scrollbar {
+  display: none;
 }
