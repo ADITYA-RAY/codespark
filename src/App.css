@@ -430,12 +430,13 @@ color: rgb(0, 202, 142);
   .content-accordion a {font-size: 18px;}
 }
 .HTML1-side-section{
+  padding-top: 100px;
   position: fixed;
   width: 25%;
   background-color: rgb(255, 255, 255);
   bottom: 0;
   left: 0;
-  height: 89%;
+  height: 100%;
   overflow-x: hidden;
   z-index: 1;
   transition: 0.2s ease-in-out;
