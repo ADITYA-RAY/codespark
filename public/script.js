@@ -125,11 +125,7 @@ function toggleNightMode(){
   for(var i=0;i<HTMLCardModuleno .length;i++){
     document.getElementsByClassName("HTMLCardModuleno")[i].style.backgroundColor="#6f00ca";
   }
-  var tlinks =document.getElementsByClassName("tbl");
-  for(var i=0;i<tlinks.length;i++){
-    document.getElementsByClassName("tbl").className -= " tablinks";
-    document.getElementsByClassName("tbl")[i].style.color="#fff !important";
-  }
+
   document.getElementsByClassName("HTML1-main-content")[0].style.backgroundColor="#0a182e";
   document.getElementsByClassName("HTML1-side-section")[0].style.backgroundColor="#0a182e";
 
@@ -173,11 +169,7 @@ function toggleLightMode(){
   for(var i=0;i<HTMLCardModuleno .length;i++){
     document.getElementsByClassName("HTMLCardModuleno")[i].style.backgroundColor="rgb(0, 202, 142)";
   }
-  tablinks = document.getElementsByClassName("tablinks");
-  var tlinks =document.getElementsByClassName("tbl");
-  for(var i=0;i<tlinks.length;i++){
-    document.getElementsByClassName("tbl")[i].style.color="#161616b9";
-  }
+
   document.getElementsByClassName("HTML1-main-content")[0].style.backgroundColor="white";
   document.getElementsByClassName("HTML1-side-section")[0].style.backgroundColor="white";
 

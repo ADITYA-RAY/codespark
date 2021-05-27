@@ -16,19 +16,15 @@ export const HTML1 = () => {
   }
   const changeMode = () => {
     var z= document.getElementsByClassName("inputstyle")[0].style.color;
-    var m=document.getElementsByClassName("tablinks");
+
     if(z==="rgb(203, 213, 245)"){
       window.toggleLightMode(); 
       document.getElementById("modetoggle").className = " fa fa-moon-o";
-      for(var i=0;i<m.length;i++){
-      document.getElementsByClassName("tablinks")[i].style.color="green !important";
-      }
+  
     }else{
       window.toggleNightMode();
       document.getElementById("modetoggle").className = " fa fa-sun-o";
-      for(var j=0;j<m.length;j++){
-        document.getElementsByClassName("tablinks")[j].style.color="white !important";
-        }
+    
     }
    
   

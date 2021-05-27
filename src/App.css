@@ -575,7 +575,9 @@ text-decoration: none;
 color: white;
 background-color: rgba(111, 0, 202, 0.726);
 }
-
+.tablinks{
+  color: #9e009eb9 !important;
+}
 .tablinks:hover{
   color: rgb(0, 202, 142) !important ;
   cursor: pointer;
