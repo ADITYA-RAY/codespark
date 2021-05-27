@@ -89,3 +89,101 @@ function searchIndex() {
     }
   }
 }
+
+///toggle day night mode
+
+function toggleNightMode(){
+
+
+  var tabcontent=document.getElementsByClassName("tabcontent");
+  for(var i=0;i<tabcontent.length;i++){
+    document.getElementsByClassName("tabcontent")[i].style.backgroundColor="#0a182e";
+  }
+  var HTMLCardListIndex=document.getElementsByClassName("HTMLCardListIndex");
+  for(var i=0;i<HTMLCardListIndex.length;i++){
+    document.getElementsByClassName("HTMLCardListIndex")[i].style.color="#ffc5ed";
+  }
+  var HTMLCardModuleno=document.getElementsByClassName("HTMLCardModuleno");
+  for(var i=0;i<HTMLCardModuleno.length;i++){
+    document.getElementsByClassName("HTMLCardModuleno")[i].style.color="#ffc5ed";
+  }
+  var autotablinks=document.getElementsByClassName("autotablinks");
+  for(var i=0;i<autotablinks.length;i++){
+    document.getElementsByClassName("autotablinks")[i].style.color="#cbd5f5";
+  }
+  var HTMLCardIndex=document.getElementsByClassName("HTMLCardIndex");
+  for(var i=0;i<HTMLCardIndex.length;i++){
+    document.getElementsByClassName("HTMLCardIndex")[i].style.backgroundColor="#0a192f";
+    document.getElementsByClassName("HTMLCardIndex")[i].style.color="#cbd5f5";
+  }
+
+  var tabcontent=document.getElementsByClassName("tabcontent");
+  for(var i=0;i<tabcontent.length;i++){
+    document.getElementsByClassName("tabcontent")[i].style.color="#cbd5f5";
+  }
+  var HTMLCardModuleno =document.getElementsByClassName("HTMLCardModuleno");
+  for(var i=0;i<HTMLCardModuleno .length;i++){
+    document.getElementsByClassName("HTMLCardModuleno")[i].style.backgroundColor="#6f00ca";
+  }
+  var tlinks =document.getElementsByClassName("tbl");
+  for(var i=0;i<tlinks.length;i++){
+    document.getElementsByClassName("tbl").className -= " tablinks";
+    document.getElementsByClassName("tbl")[i].style.color="#fff !important";
+  }
+  document.getElementsByClassName("HTML1-main-content")[0].style.backgroundColor="#0a182e";
+  document.getElementsByClassName("HTML1-side-section")[0].style.backgroundColor="#0a182e";
+
+  document.getElementsByClassName("HTMLnav")[0].style.backgroundColor="#0a182e";
+  document.getElementsByClassName("inputstyle")[0].style.backgroundColor="#0a182e";
+  document.getElementsByClassName("inputstyle")[0].style.border="1px solid rgb(4 19 130)";
+  document.getElementsByClassName("inputstyle")[0].style.color="#cbd5f5";
+
+}
+
+function toggleLightMode(){
+
+
+  var tabcontent=document.getElementsByClassName("tabcontent");
+  for(var i=0;i<tabcontent.length;i++){
+    document.getElementsByClassName("tabcontent")[i].style.backgroundColor="white";
+  }
+  var HTMLCardListIndex=document.getElementsByClassName("HTMLCardListIndex");
+  for(var i=0;i<HTMLCardListIndex.length;i++){
+    document.getElementsByClassName("HTMLCardListIndex")[i].style.color="rgb(44, 44, 43)";
+  }
+  var HTMLCardModuleno=document.getElementsByClassName("HTMLCardModuleno");
+  for(var i=0;i<HTMLCardModuleno.length;i++){
+    document.getElementsByClassName("HTMLCardModuleno")[i].style.color="white";
+  }
+  var autotablinks=document.getElementsByClassName("autotablinks");
+  for(var i=0;i<autotablinks.length;i++){
+    document.getElementsByClassName("autotablinks")[i].style.color="rgb(111, 0, 202)";
+  }
+  var HTMLCardIndex=document.getElementsByClassName("HTMLCardIndex");
+  for(var i=0;i<HTMLCardIndex.length;i++){
+    document.getElementsByClassName("HTMLCardIndex")[i].style.backgroundColor="white";
+    document.getElementsByClassName("HTMLCardIndex")[i].style.color="black";
+  }
+
+  var tabcontent=document.getElementsByClassName("tabcontent");
+  for(var i=0;i<tabcontent.length;i++){
+    document.getElementsByClassName("tabcontent")[i].style.color="rgb(70, 70, 70)";
+  }
+  var HTMLCardModuleno =document.getElementsByClassName("HTMLCardModuleno");
+  for(var i=0;i<HTMLCardModuleno .length;i++){
+    document.getElementsByClassName("HTMLCardModuleno")[i].style.backgroundColor="rgb(0, 202, 142)";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  var tlinks =document.getElementsByClassName("tbl");
+  for(var i=0;i<tlinks.length;i++){
+    document.getElementsByClassName("tbl")[i].style.color="#161616b9";
+  }
+  document.getElementsByClassName("HTML1-main-content")[0].style.backgroundColor="white";
+  document.getElementsByClassName("HTML1-side-section")[0].style.backgroundColor="white";
+
+  document.getElementsByClassName("HTMLnav")[0].style.backgroundColor="rgb(131, 11, 125)";
+  document.getElementsByClassName("inputstyle")[0].style.backgroundColor="white";
+  document.getElementsByClassName("inputstyle")[0].style.border="1px solid rgb(4 19 130)";
+  document.getElementsByClassName("inputstyle")[0].style.color="black";
+
+}

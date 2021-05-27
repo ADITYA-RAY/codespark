@@ -417,7 +417,7 @@ display: block;
 }
 .autotablinks:hover {
 text-decoration: none;
-color: rgb(0, 202, 142);
+color: rgb(0, 202, 142) !important;
 }
 #mainHTML1 {
   transition: margin-left .5s;
@@ -467,8 +467,8 @@ color: rgb(0, 202, 142);
 }
 .HTML1-main-content{
   margin-left: 22%;
-  padding:100px 20px;
-  background-color: white;
+  padding:100px 0px;
+  background-color: rgb(255, 255, 255);
   min-height: 800px;
 }
 
@@ -476,7 +476,7 @@ color: rgb(0, 202, 142);
   background-color: white;
 }
 .HTMLnav{
-  background-color: rgb(131, 11, 125) !important;
+  background-color: rgb(131, 11, 125) ;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 0;
   height: 70px !important;
@@ -516,12 +516,12 @@ color: rgb(0, 202, 142);
 }
 .HTMLCardIndex{
   display: block;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.2);
   height: 300px;
   padding: 20px;
 }
 .HTMLCardIndex:hover{
-  box-shadow: 0 8px 16px 0 rgba(110, 32, 97, 0.2);
+  box-shadow: 4px 8px 16px 7px rgba(110, 32, 97, 0.2);
 }
 .HTMLCardModuleno{
   display: block;
@@ -575,11 +575,9 @@ text-decoration: none;
 color: white;
 background-color: rgba(111, 0, 202, 0.726);
 }
-.tablinks{
-  color: rgba(22, 22, 22, 0.726) !important;
-}
+
 .tablinks:hover{
-  color: rgba(111, 0, 202, 0.726) !important;
+  color: rgb(0, 202, 142) !important ;
   cursor: pointer;
 }
 
@@ -592,7 +590,7 @@ background-color: rgba(111, 0, 202, 0.726);
   color: rgb(70, 70, 70);
 }
 .tabcontent:hover{
-  box-shadow: 0 8px 16px 0 rgba(110, 32, 97, 0.2);
+  box-shadow: 4px 8px 16px 7px rgba(110, 32, 97, 0.2);
 }
 @media screen and (max-width:500px) {
   .tabcontent {

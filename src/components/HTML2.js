@@ -17,7 +17,7 @@ export const HTML2 = () => {
   return (
     <div>
         <div className="HTML1-side-section" id="HTML1-side-section">
-        <input type="text" id="mySearch"  onKeyUp={() => {searchIndexOut()}} placeholder="Search.." title="Type in a category" autoComplete="off"/>
+      <input type="text" id="mySearch" className="inputstyle" onKeyUp={() => {searchIndexOut()}} placeholder="Search.." title="Type in a category" autoComplete="off"/>
           <ul id="myMenu" style={{listStyleType:'none',padding:'0'}}>
        <li><a className="autotablinks" href="#learnmodule" onClick={() => { Autotabopen("autotab1", '0') }} id="autodefaultOpen"><i class="fa fa-book"></i> Introduction to HTML </a></li>
        <li><a className="autotablinks" href="#learnmodule" onClick={() => { Autotabopen("autotab2", '1') }}><i class="fa fa-book"></i> Elements & attributes</a></li>
