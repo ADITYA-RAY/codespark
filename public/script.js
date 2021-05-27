@@ -38,6 +38,7 @@ function openFullscreen() {
 
 function closeFullscreen() {
   document.getElementsByClassName("mainmodule")[0].style.display="none";
+  if(elem.requestFullscreen=='true'){
   if (document.exitFullscreen) {
     document.exitFullscreen();
   } else if (document.webkitExitFullscreen) { /* Safari */
@@ -45,7 +46,7 @@ function closeFullscreen() {
   } else if (document.msExitFullscreen) { /* IE11 */
     document.msExitFullscreen();
   }
- 
+}
   var element = document.getElementById("allbody");
   element.classList.remove("onmoduleopen");
 }
