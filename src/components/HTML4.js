@@ -9,7 +9,7 @@ export const HTML4 = (props) => {
 
             <div className="container" >
             <div id={props.infot.tab1} className="tabcontent">
-            <div className="HTMLCardListIndex desc" >What is HTML? </div>
+            <div className="HTMLCardListIndex" >What is HTML? </div>
             <ul className="nobullets">
            <li><i class="fa fa-angle-double-right"></i> HTML stands for Hyper Text Markup Language. </li><br/>
            <li><i class="fa fa-angle-double-right"></i> HTML is the standard markup language for creating Web pages.</li><br/>

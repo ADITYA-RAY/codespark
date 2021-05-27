@@ -594,7 +594,22 @@ background-color: rgba(111, 0, 202, 0.726);
 .tabcontent:hover{
   box-shadow: 0 8px 16px 0 rgba(110, 32, 97, 0.2);
 }
-
+@media screen and (max-width:500px) {
+  .tabcontent {
+    display: none;
+    color: rgb(70, 70, 70);
+    box-shadow:none;
+    padding: 0px;
+  } 
+  .tabcontent.nobullets{
+    padding-left: 0px;
+    text-indent: 0px;
+  }
+  .tabcontent li{
+    margin-left: -25px;
+    text-indent: 0px;
+  }
+}
 .HTMLcard-active{
   color: rgba(111, 0, 202, 0.726) !important;
 
