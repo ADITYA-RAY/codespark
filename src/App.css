@@ -411,8 +411,9 @@ float: right;
   font-size: 15px; 
 text-decoration: none;
 color:rgb(111, 0, 202);
-padding: 20px 200px 20px 50px ;
-margin-left: -70px;
+padding: 12px 10px 12px 18px;
+display: block;
+
 }
 .autotablinks:hover {
 text-decoration: none;
@@ -432,7 +433,7 @@ color: rgb(0, 202, 142);
 .HTML1-side-section{
   padding-top: 100px;
   position: fixed;
-  width: 25%;
+  width: 22%;
   background-color: rgb(255, 255, 255);
   bottom: 0;
   left: 0;
@@ -440,6 +441,7 @@ color: rgb(0, 202, 142);
   overflow-x: hidden;
   z-index: 1;
   transition: 0.2s ease-in-out;
+  display: block;
 }
 
 /* width */
@@ -464,7 +466,7 @@ color: rgb(0, 202, 142);
   background: #7a00b3a2; 
 }
 .HTML1-main-content{
-  margin-left: 25%;
+  margin-left: 22%;
   padding:100px 20px;
   background-color: white;
   min-height: 800px;
@@ -479,7 +481,6 @@ color: rgb(0, 202, 142);
   margin: 0;
   height: 70px !important;
   z-index: 2;
-  padding-left:50px ;
 }
 
 #HTML1-side-section-btn{
@@ -639,4 +640,8 @@ text-decoration: none;
 }
 .onmoduleopen::-webkit-scrollbar {
   display: none;
+}
+#mySearch{
+  width: 90%;
+margin-left: 20px;
 }
