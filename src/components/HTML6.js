@@ -3,24 +3,40 @@ import { HTML3 } from "./HTML3";
 import { HTML4 } from "./HTML4";
 //Module 1 props========================//
 var HTML3obj1 = {
-    pts: "10 Pts",
-    mod: "Module 1",
+    pts: "10 Pts", mod: "Module 1",
     topic: ' Introduction to HTML',
     line1: ' What is HTML?',
     line2: ' History of HTML',
     line3: ' Developement setup',
     line4: ' An basic HTML page',
-    time: '4-5',
-    level: 'Basic',
-    ptsn: '10',
-    tab1: "tab1",
-    tab2: "tab2",
-    tab3: "tab3",
-    tab4: "tab4",
-    tab1no: '0',
-    tab2no: '1',
-    tab3no: '2',
-    tab4no: '3',
+    time: '4-5', level: 'Basic', ptsn: '10',
+    tab1: "tab1", tab2: "tab2", tab3: "tab3", tab4: "tab4",
+    tab1no: '0', tab2no: '1', tab3no: '2', tab4no: '3',
+    t1l1: ' HTML stands for Hyper Text Markup Language.',
+    t1l2: ' HTML is the standard markup language for creating Web pages.',
+    t1l3: 'HTML describes the structure of a Web page.',
+    t1l4: 'HTML consists of a series of elements.',
+    t1l5: 'HTML elements tell the browser how to display the content.',
+    t1l6: ' HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.',
+    t2l1: 'I am wating for content!',
+    t2l2: 'I am wating for content!',
+    t2l3: 'I am wating for content!',
+    t2l4: 'I am wating for content!',
+    t2l5: 'I am wating for content!',
+    t2l6: 'I am wating for content!',
+    t3l1: 'I am wating for content!',
+    t3l2: 'I am wating for content!',
+    t3l3: 'I am wating for content!',
+    t3l4: 'I am wating for content!',
+    t3l5: 'I am wating for content!',
+    t3l6: 'I am wating for content!',
+    t4l1: 'I am wating for content!',
+    t4l2: 'I am wating for content!',
+    t4l3: 'I am wating for content!',
+    t4l4: 'I am wating for content!',
+    t4l5: 'I am wating for content!',
+    t4l6: 'I am wating for content!',
+
 }
 //Module 2 props========================//
 var HTML3obj2 = {
@@ -42,6 +58,30 @@ var HTML3obj2 = {
     tab2no: '5',
     tab3no: '6',
     tab4no: '7',
+    t1l1: ' HTML stands for Hyper Text Markup Language.',
+    t1l2: ' HTML is the standard markup language for creating Web pages.',
+    t1l3: 'HTML describes the structure of a Web page.',
+    t1l4: 'HTML consists of a series of elements.',
+    t1l5: 'HTML elements tell the browser how to display the content.',
+    t1l6: ' HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.',
+    t2l1: 'I am wating for content!',
+    t2l2: 'I am wating for content!',
+    t2l3: 'I am wating for content!',
+    t2l4: 'I am wating for content!',
+    t2l5: 'I am wating for content!',
+    t2l6: 'I am wating for content!',
+    t3l1: 'I am wating for content!',
+    t3l2: 'I am wating for content!',
+    t3l3: 'I am wating for content!',
+    t3l4: 'I am wating for content!',
+    t3l5: 'I am wating for content!',
+    t3l6: 'I am wating for content!',
+    t4l1: 'I am wating for content!',
+    t4l2: 'I am wating for content!',
+    t4l3: 'I am wating for content!',
+    t4l4: 'I am wating for content!',
+    t4l5: 'I am wating for content!',
+    t4l6: 'I am wating for content!',
 }
 //Module 3 props========================//
 var HTML3obj3 = {
@@ -63,6 +103,30 @@ var HTML3obj3 = {
     tab2no: '9',
     tab3no: '10',
     tab4no: '11',
+    t1l1: ' HTML stands for Hyper Text Markup Language.',
+    t1l2: ' HTML is the standard markup language for creating Web pages.',
+    t1l3: 'HTML describes the structure of a Web page.',
+    t1l4: 'HTML consists of a series of elements.',
+    t1l5: 'HTML elements tell the browser how to display the content.',
+    t1l6: ' HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.',
+    t2l1: 'I am wating for content!',
+    t2l2: 'I am wating for content!',
+    t2l3: 'I am wating for content!',
+    t2l4: 'I am wating for content!',
+    t2l5: 'I am wating for content!',
+    t2l6: 'I am wating for content!',
+    t3l1: 'I am wating for content!',
+    t3l2: 'I am wating for content!',
+    t3l3: 'I am wating for content!',
+    t3l4: 'I am wating for content!',
+    t3l5: 'I am wating for content!',
+    t3l6: 'I am wating for content!',
+    t4l1: 'I am wating for content!',
+    t4l2: 'I am wating for content!',
+    t4l3: 'I am wating for content!',
+    t4l4: 'I am wating for content!',
+    t4l5: 'I am wating for content!',
+    t4l6: 'I am wating for content!',
 }
 //Module 4 props========================//
 var HTML3obj4 = {
@@ -84,6 +148,30 @@ var HTML3obj4 = {
     tab2no: '13',
     tab3no: '14',
     tab4no: '15',
+    t1l1: ' HTML stands for Hyper Text Markup Language.',
+    t1l2: ' HTML is the standard markup language for creating Web pages.',
+    t1l3: 'HTML describes the structure of a Web page.',
+    t1l4: 'HTML consists of a series of elements.',
+    t1l5: 'HTML elements tell the browser how to display the content.',
+    t1l6: ' HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.',
+    t2l1: 'I am wating for content!',
+    t2l2: 'I am wating for content!',
+    t2l3: 'I am wating for content!',
+    t2l4: 'I am wating for content!',
+    t2l5: 'I am wating for content!',
+    t2l6: 'I am wating for content!',
+    t3l1: 'I am wating for content!',
+    t3l2: 'I am wating for content!',
+    t3l3: 'I am wating for content!',
+    t3l4: 'I am wating for content!',
+    t3l5: 'I am wating for content!',
+    t3l6: 'I am wating for content!',
+    t4l1: 'I am wating for content!',
+    t4l2: 'I am wating for content!',
+    t4l3: 'I am wating for content!',
+    t4l4: 'I am wating for content!',
+    t4l5: 'I am wating for content!',
+    t4l6: 'I am wating for content!',
 }
 //Module 5 props========================//
 var HTML3obj5 = {
@@ -105,6 +193,30 @@ var HTML3obj5 = {
     tab2no: '17',
     tab3no: '18',
     tab4no: '19',
+    t1l1: ' HTML stands for Hyper Text Markup Language.',
+    t1l2: ' HTML is the standard markup language for creating Web pages.',
+    t1l3: 'HTML describes the structure of a Web page.',
+    t1l4: 'HTML consists of a series of elements.',
+    t1l5: 'HTML elements tell the browser how to display the content.',
+    t1l6: ' HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.',
+    t2l1: 'I am wating for content!',
+    t2l2: 'I am wating for content!',
+    t2l3: 'I am wating for content!',
+    t2l4: 'I am wating for content!',
+    t2l5: 'I am wating for content!',
+    t2l6: 'I am wating for content!',
+    t3l1: 'I am wating for content!',
+    t3l2: 'I am wating for content!',
+    t3l3: 'I am wating for content!',
+    t3l4: 'I am wating for content!',
+    t3l5: 'I am wating for content!',
+    t3l6: 'I am wating for content!',
+    t4l1: 'I am wating for content!',
+    t4l2: 'I am wating for content!',
+    t4l3: 'I am wating for content!',
+    t4l4: 'I am wating for content!',
+    t4l5: 'I am wating for content!',
+    t4l6: 'I am wating for content!',
 }
 
 export const HTML6 = () => {
@@ -116,40 +228,40 @@ export const HTML6 = () => {
                     <HTML4 infot={HTML3obj1} />
                 </div>
                 <div id="autotab2" className="autotabcontent">
-                        <HTML3 infot={HTML3obj2} />
-                        <HTML4 infot={HTML3obj2} />
+                    <HTML3 infot={HTML3obj2} />
+                    <HTML4 infot={HTML3obj2} />
                 </div>
-                <div id="autotab3" className="autotabcontent">                
-                        <HTML3 infot={HTML3obj3} />
-                        <HTML4 infot={HTML3obj3} />
+                <div id="autotab3" className="autotabcontent">
+                    <HTML3 infot={HTML3obj3} />
+                    <HTML4 infot={HTML3obj3} />
                 </div>
-                <div id="autotab4" className="autotabcontent">                
-                        <HTML3 infot={HTML3obj4} />
-                        <HTML4 infot={HTML3obj4} />
+                <div id="autotab4" className="autotabcontent">
+                    <HTML3 infot={HTML3obj4} />
+                    <HTML4 infot={HTML3obj4} />
                 </div>
-                <div id="autotab5" className="autotabcontent">                
-                        <HTML3 infot={HTML3obj5} />
-                        <HTML4 infot={HTML3obj5} />
+                <div id="autotab5" className="autotabcontent">
+                    <HTML3 infot={HTML3obj5} />
+                    <HTML4 infot={HTML3obj5} />
                 </div>
-                <div id="autotab6" className="autotabcontent">                
-                        <HTML3 infot={HTML3obj5} />
-                        <HTML4 infot={HTML3obj5} />
+                <div id="autotab6" className="autotabcontent">
+                    <HTML3 infot={HTML3obj5} />
+                    <HTML4 infot={HTML3obj5} />
                 </div>
-                <div id="autotab7" className="autotabcontent">                
-                        <HTML3 infot={HTML3obj5} />
-                        <HTML4 infot={HTML3obj5} />
+                <div id="autotab7" className="autotabcontent">
+                    <HTML3 infot={HTML3obj5} />
+                    <HTML4 infot={HTML3obj5} />
                 </div>
-                <div id="autotab8" className="autotabcontent">                
-                        <HTML3 infot={HTML3obj5} />
-                        <HTML4 infot={HTML3obj5} />
+                <div id="autotab8" className="autotabcontent">
+                    <HTML3 infot={HTML3obj5} />
+                    <HTML4 infot={HTML3obj5} />
                 </div>
-                <div id="autotab9" className="autotabcontent">                
-                        <HTML3 infot={HTML3obj5} />
-                        <HTML4 infot={HTML3obj5} />
+                <div id="autotab9" className="autotabcontent">
+                    <HTML3 infot={HTML3obj5} />
+                    <HTML4 infot={HTML3obj5} />
                 </div>
-                <div id="autotab10" className="autotabcontent">                
-                        <HTML3 infot={HTML3obj5} />
-                        <HTML4 infot={HTML3obj5} />
+                <div id="autotab10" className="autotabcontent">
+                    <HTML3 infot={HTML3obj5} />
+                    <HTML4 infot={HTML3obj5} />
                 </div>
             </div>
         </div>

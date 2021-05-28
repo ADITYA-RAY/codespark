@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { Comingsoon } from "./Comingsoon";
 export const LearnCSS = () => {
     return (
         <div>
-            <h1>Learn CSS</h1>
+              <Comingsoon />
         </div>
     )
 }
