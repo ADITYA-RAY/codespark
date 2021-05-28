@@ -127,7 +127,6 @@ function toggleLightMode(){
   var tablinks=document.getElementsByClassName('tablinks');
   for(var i=0;i<tablinks.length;i++){
    document.getElementsByClassName("tablinks")[i].style+="color:#000000c4 !important";
-   document.getElementsByClassName("tablinks")[i].onmouseover
   }
 
   var tabcontent=document.getElementsByClassName("tabcontent");
