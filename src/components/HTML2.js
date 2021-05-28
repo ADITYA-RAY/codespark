@@ -10,6 +10,8 @@ export const HTML2 = () => {
     document.getElementById("tab13").style.display = "block";
     document.getElementById("tab17").style.display = "block";
     window.autoTab(cityName, j);
+    document.getElementById("HTML1-side-section").style.width = "0%";
+    document.getElementById("HTML1-side-section-btn").innerHTML = "<i class='fa fa-list' style={{ fontSize: '30px', color: 'pink', paddingRight: '10px' }}></i>";
   };
   const searchIndexOut = () => {
   window.searchIndex();
