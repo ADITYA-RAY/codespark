@@ -45,10 +45,10 @@ export const HTML3 = (props) => {
                             <div className="HTMLCardListIndex"><i className="fa fa-code" style={{ color: 'rgb(111, 0, 202)' }}> </i > {props.infot.topic}</div>
 
                             <ul className="nobullets">
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab1", '0') }} id="defaultOpen"><i class="fa fa-cube"></i>{props.infot.line1} </a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab2", '1') }} ><i class="fa fa-cube"></i>{props.infot.line2} </a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab3", '2') }} ><i class="fa fa-cube"></i> {props.infot.line3}</a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab4", '3') }} ><i class="fa fa-cube"></i> {props.infot.line4}</a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab1", '0') }} id="defaultOpen"><i class="fa fa-cube"></i>{props.infot.line1} </a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab2", '1') }} ><i class="fa fa-cube"></i>{props.infot.line2} </a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab3", '2') }} ><i class="fa fa-cube"></i> {props.infot.line3}</a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab4", '3') }} ><i class="fa fa-cube"></i> {props.infot.line4}</a></li>
                             </ul>
 
                         </div>
@@ -59,7 +59,7 @@ export const HTML3 = (props) => {
                             <p style={{ paddingTop: '20px', fontSize: '17px' }}> <i className="fa fa-clock-o" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> Estimated time : {props.infot.time} minutes</p>
                             <p style={{ fontSize: '17px' }}> <i className="fa fa-cubes" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> Level : <span style={{ color: '#0ab800' }}>{props.infot.level}</span></p>
                             <p style={{ fontSize: '17px' }}> <i className="fa fa-star" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> points : {props.infot.ptsn}</p>
-                            <a href="#scrolltotabcontent" className="startbtn" onClick={() => { fullscreentrigger() }}>Start</a>
+                            <a href="#learnmodule" className="startbtn" onClick={() => { fullscreentrigger() }}>Start</a>
 
                         </div>
                     </div>
@@ -71,10 +71,10 @@ export const HTML3 = (props) => {
                             <div className="HTMLCardListIndex"><i className="fa fa-code" style={{ color: 'rgb(111, 0, 202)' }}> </i > {props.infot.topic}</div>
 
                             <ul className="nobullets">
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab1", '0') }} id="defaultOpen"><i class="fa fa-cube"></i>{props.infot.line1} </a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab2", '1') }} ><i class="fa fa-cube"></i>{props.infot.line2} </a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab3", '2') }} ><i class="fa fa-cube"></i> {props.infot.line3}</a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab4", '3') }} ><i class="fa fa-cube"></i> {props.infot.line4}</a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab1", '0') }} id="defaultOpen"><i class="fa fa-cube"></i>{props.infot.line1} </a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab2", '1') }} ><i class="fa fa-cube"></i>{props.infot.line2} </a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab3", '2') }} ><i class="fa fa-cube"></i> {props.infot.line3}</a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab4", '3') }} ><i class="fa fa-cube"></i> {props.infot.line4}</a></li>
                             </ul>
 
                         </div>

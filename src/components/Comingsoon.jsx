@@ -14,7 +14,7 @@ export const Comingsoon = () => {
             <div style={censty}>
             <h1>Coming soon</h1>
             <h2>We are working day and night on this :)</h2>
-            <h2>For now do check our HTML tutorial <a href="/learnhtml">here</a>.</h2>
+            <h2>For now do check our HTML tutorial <a href="/learnhtml/">here</a>.</h2>
         </div>
         </div>
     )
