@@ -43,11 +43,12 @@ export const HTML3 = (props) => {
                             <div className="HTMLCardModuleno">{props.infot.mod}</div>
 
                             <div className="HTMLCardListIndex"><i className="fa fa-code" style={{ color: 'rgb(111, 0, 202)' }}> </i > {props.infot.topic}</div>
+
                             <ul className="nobullets">
-                                <li> <a className=" tablinks" href="#learnmodule" onClick={() => { sendopenCity("tab1", '0') }} id="defaultOpen"><i class="fa fa-cube"></i>{props.infot.line1} </a></li>
-                                <li> <a className=" tablinks " href="#learnmodule" onClick={() => { sendopenCity("tab2", '1') }} ><i class="fa fa-cube"></i>{props.infot.line2} </a></li>
-                                <li><a className=" tablinks" href="#learnmodule" onClick={() => { sendopenCity("tab3", '2') }} ><i class="fa fa-cube"></i> {props.infot.line3}</a></li>
-                                <li><a className=" tablinks " href="#learnmodule" onClick={() => { sendopenCity("tab4", '3') }} ><i class="fa fa-cube"></i> {props.infot.line4}</a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab1", '0') }} id="defaultOpen"><i class="fa fa-cube"></i>{props.infot.line1} </a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab2", '1') }} ><i class="fa fa-cube"></i>{props.infot.line2} </a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab3", '2') }} ><i class="fa fa-cube"></i> {props.infot.line3}</a></li>
+                                <li><a className="tablinks tbls" href="#learnmodule" onClick={() => { sendopenCity("tab4", '3') }} ><i class="fa fa-cube"></i> {props.infot.line4}</a></li>
                             </ul>
 
                         </div>

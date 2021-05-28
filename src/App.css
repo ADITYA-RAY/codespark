@@ -576,10 +576,11 @@ color: white;
 background-color: rgba(111, 0, 202, 0.726);
 }
 .tablinks{
-  color: #9e009eb9 !important;
+  color: #000000c4;
+  font-size: 18px;
 }
 .tablinks:hover{
-  color: rgb(0, 202, 142) !important ;
+  color: rgb(0, 202, 142) !important;
   cursor: pointer;
 }
 
@@ -611,7 +612,7 @@ background-color: rgba(111, 0, 202, 0.726);
   }
 }
 .HTMLcard-active{
-  color: rgba(111, 0, 202, 0.726) !important;
+  color: rgba(111, 0, 202, 0.726);
 
 }
 .nobullets{
