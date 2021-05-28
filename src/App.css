@@ -597,17 +597,14 @@ background-color: rgba(111, 0, 202, 0.726);
 }
 @media screen and (max-width:500px) {
   .tabcontent {
-    display: none;
-    color: rgb(70, 70, 70);
-    box-shadow:none;
-    padding: 0px;
+    padding: 20px 10px ;
   } 
   .tabcontent.nobullets{
-    padding-left: 0px;
+    padding-left: 10px;
     text-indent: 0px;
   }
   .tabcontent li{
-    margin-left: -25px;
+    margin-left: -20px;
     text-indent: 0px;
   }
 }
