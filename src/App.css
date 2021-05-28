@@ -554,11 +554,19 @@ color: rgb(0, 202, 142) !important;
  width: fit-content;
  margin-bottom: 20px;
 }
-
+.col-sm.secondindex{
+  display: none;
+}
 
 @media screen and (max-width:800px) {
   .HTML1-main-content{
     padding:100px 0px;
+  }
+  .col-sm.firstindex{
+    display: none;
+  }
+  .col-sm.secondindex{
+    display: block;
   }
 }
 .startbtn{
