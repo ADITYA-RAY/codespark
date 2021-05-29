@@ -36,17 +36,17 @@ export const HTML1 = () => {
         <a className="navbar-brand ml23 logoHTMLpage" href="/"><l1>code</l1><l2>Spark</l2></a>
         <div className="nav-right-edit">
         <li className="navbar-brand ml23">
-            <a className="nav-link  px-2 " href="#articles"  onClick={() => { changeMode() }}><i className="fa fa-moon-o" id="modetoggle" style={{ fontSize: '30px', color: 'pink', paddingRight: '10px' }}></i></a>
+            <a className="nav-link  px-2 " href="# "  onClick={() => { changeMode() }}><i className="fa fa-moon-o" id="modetoggle" style={{ fontSize: '30px', color: 'pink', paddingRight: '10px' }}></i></a>
           </li>
           <li className="navbar-brand ml23">
-            <a className="nav-link  px-2" href="#snippets"><i className="fa fa-pie-chart" style={{ fontSize: '30px', color: 'pink', paddingRight: '10px' }}></i></a>
+            <a className="nav-link  px-2" href="# "><i className="fa fa-pie-chart" style={{ fontSize: '30px', color: 'pink', paddingRight: '10px' }}></i></a>
           </li>
           <li className="navbar-brand ml23">
-            <a className="nav-link  px-2 " href="#articles"><i className="fa fa-user" style={{ fontSize: '30px', color: 'pink', paddingRight: '10px' }}></i></a>
+            <a className="nav-link  px-2 " href="# "><i className="fa fa-user" style={{ fontSize: '30px', color: 'pink', paddingRight: '10px' }}></i></a>
           </li>
 
           <li className="navbar-brand ml23">
-            <a className="nav-link  px-2 " href="#articles" id="HTML1-side-section-btn" onClick={showIndex}><i className="fa fa-list" style={{ fontSize: '30px', color: 'pink', paddingRight: '10px' }}></i></a>
+            <a className="nav-link  px-2 " href="# " id="HTML1-side-section-btn" onClick={showIndex}><i className="fa fa-list" style={{ fontSize: '30px', color: 'pink', paddingRight: '10px' }}></i></a>
           </li>
         </div>
 
