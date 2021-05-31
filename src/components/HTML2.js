@@ -9,6 +9,15 @@ export const HTML2 = () => {
     document.getElementById("tab9").style.display = "block";
     document.getElementById("tab13").style.display = "block";
     document.getElementById("tab17").style.display = "block";
+    document.getElementById("tab21").style.display = "block";
+    document.getElementById("tab25").style.display = "block";
+    document.getElementById("tab29").style.display = "block";
+    document.getElementById("tab33").style.display = "block";
+    document.getElementById("tab37").style.display = "block";
+    document.getElementById("tab41").style.display = "block";
+    document.getElementById("tab45").style.display = "block";
+
+    
     window.autoTab(cityName, j);
     var w = document.getElementById("HTML1-side-section").style.width;
     if (w === '0%' || w === '') {
@@ -36,8 +45,8 @@ export const HTML2 = () => {
        <li><a className="autotablinks" href="# " onClick={() => { Autotabopen("autotab8", '7') }}> <i class="fa fa-book"></i> Classes & ID </a></li>
        <li><a className="autotablinks" href="# " onClick={() => { Autotabopen("autotab9", '8') }}><i class="fa fa-book"></i> Iframes & Javascript </a></li>
        <li><a className="autotablinks" href="# " onClick={() => { Autotabopen("autotab10", '9') }}><i class="fa fa-book"></i> File Paths & Head </a></li>
-       <li><a className="autotablinks" href="# " onClick={() => { Autotabopen("autotab10", '9') }}><i class="fa fa-book"></i> File Paths & Head </a></li>
-       <li><a className="autotablinks" href="# " onClick={() => { Autotabopen("autotab10", '9') }}><i class="fa fa-book"></i> File Paths & Head </a></li>
+       <li><a className="autotablinks" href="# " onClick={() => { Autotabopen("autotab11", '10') }}><i class="fa fa-book"></i> Layout & Responsive </a></li>
+       <li><a className="autotablinks" href="# " onClick={() => { Autotabopen("autotab12", '11') }}><i class="fa fa-book"></i> Computer code & Semantics </a></li>
        </ul>
       </div>
 

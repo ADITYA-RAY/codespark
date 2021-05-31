@@ -597,8 +597,9 @@ background-color: rgba(111, 0, 202, 0.726);
 .tabcontent {
   display: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 20px;
+  padding: 20px 20px 50px 20px;
   color: rgb(70, 70, 70);
+  border-bottom: 3px solid rgb(0, 202, 142);
 }
 .tabcontent:hover{
   box-shadow: 4px 8px 16px 7px rgba(110, 32, 97, 0.2);
@@ -624,7 +625,7 @@ background-color: rgba(111, 0, 202, 0.726);
   list-style-type: none;
 }
 .nobullets li{
-  padding-left: 10px;
+  padding-left: 20px;
   text-indent: -10px;
 }
 
@@ -665,4 +666,38 @@ text-decoration: none;
 #mySearch{
   width: 90%;
 margin-left: 20px;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: rgb(255, 255, 255);
+  background: rgba(234, 0, 255, 0.603);
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgba(234, 0, 255, 0.603);
+}
+
+.codecard{
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgb(11, 11, 15);
+  border-left:3px solid rgb(202, 0, 67);
+  border-right:3px solid rgb(11, 11, 15);
+  overflow-x: scroll;
+ 
+}
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin-left:-60px;
+  color: rgb(180, 180, 180);
+  font-size: 17px;
+} 
+@media screen and (max-width:500px){
+  .codecard{
+    width: 100%;
+    margin: 0;  
+  }
 }

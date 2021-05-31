@@ -55,7 +55,7 @@ window.onload = function () {
   
 }
 
-
+document.getElementById("tabscript").innerHTML="<p>hi</p>";
 
 function searchIndex() {
   var input, filter, ul, li, a, i;
