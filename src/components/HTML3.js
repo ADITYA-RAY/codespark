@@ -2,34 +2,14 @@ import React from 'react'
 
 export const HTML3 = (props) => {
 
-    const sendopenCity = (cityName, j) => {
-        if (j === '0') {
-            cityName = props.infot.tab1;
-            j = props.infot.tab1no
-        }
-        if (j === '1') {
-            cityName = props.infot.tab2;
-            j = props.infot.tab2no
-        }
-        if (j === '2') {
-            cityName = props.infot.tab3;
-            j = props.infot.tab3no
-        }
-        if (j === '3') {
-            cityName = props.infot.tab4;
-            j = props.infot.tab4no
-        }
-        window.openCity(cityName, j);
 
-    };
-    
     const fullscreentrigger = () => {
         window.openFullscreen();
-        
+
     };
     const fullscreenclose = () => {
         window.closeFullscreen();
-        
+
     };
 
     return (
@@ -45,10 +25,10 @@ export const HTML3 = (props) => {
                             <div className="HTMLCardListIndex"><i className="fa fa-code" style={{ color: 'rgb(111, 0, 202)' }}> </i > {props.infot.topic}</div>
 
                             <ul className="nobullets">
-                                <li><a className="tablinks tbls" href="# " onClick={() => { sendopenCity("tab1", '0') }} id="defaultOpen"><i class="fa fa-cube"></i>{props.infot.line1} </a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab2", '1') }} ><i class="fa fa-cube"></i>{props.infot.line2} </a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab3", '2') }} ><i class="fa fa-cube"></i> {props.infot.line3}</a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab4", '3') }} ><i class="fa fa-cube"></i> {props.infot.line4}</a></li>
+                                <li><a className="tablinks tbls" href={"#" + props.infot.tab1} ><i class="fa fa-cube"></i>{props.infot.line1} </a></li>
+                                <li><a className="tablinks tbls" href={"#" + props.infot.tab2}  ><i class="fa fa-cube"></i>{props.infot.line2} </a></li>
+                                <li><a className="tablinks tbls" href={"#" + props.infot.tab3}  ><i class="fa fa-cube"></i> {props.infot.line3}</a></li>
+                                <li><a className="tablinks tbls" href={"#" + props.infot.tab4}  ><i class="fa fa-cube"></i> {props.infot.line4}</a></li>
                             </ul>
 
                         </div>
@@ -71,10 +51,10 @@ export const HTML3 = (props) => {
                             <div className="HTMLCardListIndex"><i className="fa fa-code" style={{ color: 'rgb(111, 0, 202)' }}> </i > {props.infot.topic}</div>
 
                             <ul className="nobullets">
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab1", '0') }} id="defaultOpen"><i class="fa fa-cube"></i>{props.infot.line1} </a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab2", '1') }} ><i class="fa fa-cube"></i>{props.infot.line2} </a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab3", '2') }} ><i class="fa fa-cube"></i> {props.infot.line3}</a></li>
-                                <li><a className="tablinks tbls" href="#scrolltotabcontent" onClick={() => { sendopenCity("tab4", '3') }} ><i class="fa fa-cube"></i> {props.infot.line4}</a></li>
+                                <li><a className="tablinks tbls" href={"#" + props.infot.tab1} ><i class="fa fa-cube"></i>{props.infot.line1} </a></li>
+                                <li><a className="tablinks tbls" href={"#" + props.infot.tab2}  ><i class="fa fa-cube"></i>{props.infot.line2} </a></li>
+                                <li><a className="tablinks tbls" href={"#" + props.infot.tab3}  ><i class="fa fa-cube"></i> {props.infot.line3}</a></li>
+                                <li><a className="tablinks tbls" href={"#" + props.infot.tab4}  ><i class="fa fa-cube"></i> {props.infot.line4}</a></li>
                             </ul>
 
                         </div>
@@ -82,7 +62,7 @@ export const HTML3 = (props) => {
                 </div>
 
 
-             
+
             </div>
             <div className="mainmodule">
                 <h1 style={{ color: 'white', padding: '20px' }}> Welcome to codeSpark module</h1>

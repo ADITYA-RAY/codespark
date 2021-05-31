@@ -1,6 +1,5 @@
 window.onload = function () {
   document.getElementById("autodefaultOpen").click();
-  document.getElementById("defaultOpen").click();
 }
 
 
@@ -167,23 +166,5 @@ function toggleLightMode(){
   document.getElementsByClassName("inputstyle")[0].style.backgroundColor="white";
   document.getElementsByClassName("inputstyle")[0].style.border="1px solid rgb(4 19 130)";
   document.getElementsByClassName("inputstyle")[0].style.color="black";
-
-}
-
-function openCity(cityName, j) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    if (i != j) {
-      tablinks[i].className = tablinks[i].className.replace(" HTMLcard-active", "");
-    } else {
-      tablinks[i].className = tablinks[i].className += (" HTMLcard-active");
-    }
-  }
-  document.getElementById(cityName).style.display = "block";
 
 }

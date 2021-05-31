@@ -41,9 +41,9 @@ var HTML3obj1 = {
         very efficient.</p>
     </>,
 
-    t4p1:<>
-    <div className="codecard">
-        <pre>{`
+    t4p1: <>
+        <div className="codecard">
+            <pre>{`
         <!DOCTYPE html>
         <html>
         <head>
@@ -56,7 +56,7 @@ var HTML3obj1 = {
 
         </body>
         </html>
-            `}     </pre>
+            `}</pre>
         </div>
     </>
 }

@@ -4,18 +4,7 @@ import React from 'react'
 export const HTML2 = () => {
 
   const Autotabopen = (cityName, j) => {
-    document.getElementById("tab1").style.display = "block";
-    document.getElementById("tab5").style.display = "block";
-    document.getElementById("tab9").style.display = "block";
-    document.getElementById("tab13").style.display = "block";
-    document.getElementById("tab17").style.display = "block";
-    document.getElementById("tab21").style.display = "block";
-    document.getElementById("tab25").style.display = "block";
-    document.getElementById("tab29").style.display = "block";
-    document.getElementById("tab33").style.display = "block";
-    document.getElementById("tab37").style.display = "block";
-    document.getElementById("tab41").style.display = "block";
-    document.getElementById("tab45").style.display = "block";
+
 
     
     window.autoTab(cityName, j);
