@@ -604,6 +604,13 @@ background-color: rgba(111, 0, 202, 0.726);
 .tabcontent:hover{
   box-shadow: 4px 8px 16px 7px rgba(110, 32, 97, 0.2);
 }
+.nobullets{
+  list-style-type: none;
+}
+.nobullets li{
+  padding-left: 20px;
+  text-indent: -10px;
+}
 @media screen and (max-width:900px) {
   .tabcontent {
     padding: 20px 10px ;
@@ -613,21 +620,15 @@ background-color: rgba(111, 0, 202, 0.726);
     text-indent: 0px;
   }
   .tabcontent li{
-    margin-left: -20px;
-    text-indent: 0px;
+    margin-left: 20px;
+    text-indent: -10px;
   }
 }
 .HTMLcard-active{
   color: rgba(111, 0, 202, 0.726);
 
 }
-.nobullets{
-  list-style-type: none;
-}
-.nobullets li{
-  padding-left: 20px;
-  text-indent: -10px;
-}
+
 
 /* Style the tab */
 .autotab {
