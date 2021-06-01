@@ -1,16 +1,9 @@
 import React from 'react'
-
+import { Moduletemp } from "./Moduletemp";
 export const HTML3 = (props) => {
 
 
-    const fullscreentrigger = () => {
-        window.openFullscreen();
 
-    };
-    const fullscreenclose = () => {
-        window.closeFullscreen();
-
-    };
 
     return (
         <div>
@@ -39,7 +32,9 @@ export const HTML3 = (props) => {
                             <p style={{ paddingTop: '20px', fontSize: '17px' }}> <i className="fa fa-clock-o" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> Estimated time : {props.infot.time} minutes</p>
                             <p style={{ fontSize: '17px' }}> <i className="fa fa-cubes" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> Level : <span style={{ color: '#0ab800' }}>{props.infot.level}</span></p>
                             <p style={{ fontSize: '17px' }}> <i className="fa fa-star" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> points : {props.infot.ptsn}</p>
-                            <a href="# " className="startbtn" onClick={() => { fullscreentrigger() }}>Start</a>
+                            <a href="/learnmodule " className="startbtn">Start</a>
+                            
+                            
 
                         </div>
                     </div>
@@ -65,8 +60,7 @@ export const HTML3 = (props) => {
 
             </div>
             <div className="mainmodule">
-                <h1 style={{ color: 'white', padding: '20px' }}> Welcome to codeSpark module</h1>
-                <button onClick={() => { fullscreenclose() }}>Close Fullscreen</button>
+                <Moduletemp />
             </div>
 
         </div>
