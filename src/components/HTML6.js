@@ -47,9 +47,19 @@ var HTML3obj1 = {
         allowed its user to create web pages in a much easier and prettier way and make sites
         very efficient.</p>
     </>,
-
+    t3p1:<>
+    <p>To code HTML you just need a text editor like notepad for windows or text edit for mac there 
+    are professinol editors available but it is good start with simple editor like notepad or text 
+    edit. Another requirement is a web browser to view your webpage.</p>
+ 
+    <img src="http://alyve.org/web/intro/html/images/htmltag2.gif" className='resimg' alt="..."/>
+    <img src="https://www.w3schools.com/html/img_chrome.png" className='resimg' alt="..."/>
+    </>,
     t4p1: <>
-        <div className="codecard">
+     A basic HTML page looks something like this. All HTML documents must start with a document 
+     type declaration. HTML document itself begin with <code>HTML</code> tag and closes with it.
+      The visible part of the web pages is coded inside the <code>body</code> tags.
+        <div className="codecard" style={{marginTop:'30px'}}>
             <div className="langside">HTML</div>
             <div className="codemod" >
                 <e>{code.DOCTYPEhtml}</e>

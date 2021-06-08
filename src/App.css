@@ -847,3 +847,15 @@ k:after {
   content: '<';
   color: rgb(206, 82, 0);
 }
+
+.resimg{
+  width: 47%;
+  margin: 10px;
+}
+
+@media screen and (max-width:500px) {
+  .resimg{
+    width:94%;
+    margin: 10px;
+  }
+}

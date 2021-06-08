@@ -1,9 +1,5 @@
 import React from 'react'
-//var code = {
-//html: "html", DOCTYPEhtml: '!DOCTYPE html', head: 'head', title: 'title', body: 'body', h1: 'h1', p: 'p',
 
-//  htmlc: "/html", headc: '/head', titlec: '/title', bodyc: '/body', h1c: '/h1', pc: '/p',
-//}
 
 export const Moduletemp = () => {
     return (
