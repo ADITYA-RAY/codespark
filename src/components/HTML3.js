@@ -9,6 +9,9 @@ export const HTML3 = (props) => {
         <div>
 
             <div class="container">
+            <div style={{ textAlign: 'left' }}>
+              
+            </div>
                 <div class="row">
                     <div class="col-sm firstindex">
                         <div className="HTMLCardIndex">
@@ -26,13 +29,13 @@ export const HTML3 = (props) => {
 
                         </div>
                     </div>
-                    <div class="col-sm">
-                        <div className="HTMLCardIndex">
-                            <div className="HTMLCardModuleno">{props.infot.mod}</div>
-                            <p style={{ paddingTop: '20px', fontSize: '17px' }}> <i className="fa fa-clock-o" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> Estimated time : {props.infot.time} minutes</p>
-                            <p style={{ fontSize: '17px' }}> <i className="fa fa-cubes" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> Level : <span style={{ color: '#0ab800' }}>{props.infot.level}</span></p>
-                            <p style={{ fontSize: '17px' }}> <i className="fa fa-star" style={{ color: 'rgb(111, 0, 202)', fontSize: '22px', verticalAlign: 'top' }}></i> points : {props.infot.ptsn}</p>
-                            <a href="/learnmodule " className="startbtn">Start</a>
+                    <div class="col-sm" >
+                        <div className="HTMLCardIndex" style={{padding:'0'}}>
+                        <video width="100%" height="100%" poster="videobgm1.jpg" controls>
+                    <source src="m1v.mp4" type="video/mp4" />
+                    <source src="m1v.ogg" type="video/ogg" />
+                        Your browser does not support HTML video.
+</video>
                             
                             
 

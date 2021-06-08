@@ -1,6 +1,13 @@
 import React from 'react'
 import { HTML3 } from "./HTML3";
 import { HTML4 } from "./HTML4";
+
+var code = {
+html: "html", DOCTYPEhtml: '!DOCTYPE html', head: 'head', title: 'title', body: 'body', h1: 'h1', p: 'p',
+
+  htmlc: "/html", headc: '/head', titlec: '/title', bodyc: '/body', h1c: '/h1', pc: '/p',
+}
+
 //Module 1 props========================//
 var HTML3obj1 = {
     pts: "10 Pts", mod: "Module 1",
@@ -43,22 +50,25 @@ var HTML3obj1 = {
 
     t4p1: <>
         <div className="codecard">
-            <pre>{`
-        <!DOCTYPE html>
-        <html>
-        <head>
-        <title> My first website </title>
-        </head>
-        <body>
+            <div className="langside">HTML</div>
+            <div className="codemod" >
+                <e>{code.DOCTYPEhtml}</e>
+                <br />
+                <e>{code.html}</e>
+                <e>{code.head}</e>
+                <e>{code.title}<k>My first website!</k>{code.titlec}</e>
+                <e>{code.headc}</e>
+                <e>{code.body}</e>
+                <e>{code.h1}<k>My first website!</k>{code.h1c}</e>
+                <e>{code.p}<k>Welcome to the first website made by me.</k>{code.pc}</e>
+                <e>{code.bodyc}</e>
+                <e>{code.htmlc}</e>
 
-        <h1>My first website!</h1>
-        <p>Welcome to the first website made by me.</p>
 
-        </body>
-        </html>
-            `}</pre>
+            </div>
+
         </div>
-        
+
     </>
 }
 //Module 2 props========================//

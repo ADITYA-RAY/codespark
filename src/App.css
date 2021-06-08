@@ -568,6 +568,9 @@ color: rgb(0, 202, 142) !important;
   .col-sm.secondindex{
     display: block;
   }
+  .HTMLCardIndex{
+  height: fit-content;
+  }
 }
 .startbtn{
   background-color: rgb(111, 0, 202);
@@ -635,8 +638,7 @@ background-color: rgba(111, 0, 202, 0.726);
   overflow: hidden;
 }
 .autotablinks{
-text-decoration: none;
- 
+text-decoration: none; 
 }
 
 /* Create an active/current tablink class */

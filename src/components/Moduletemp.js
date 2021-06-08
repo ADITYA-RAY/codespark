@@ -1,20 +1,15 @@
 import React from 'react'
 //var code = {
-    //html: "html", DOCTYPEhtml: '!DOCTYPE html', head: 'head', title: 'title', body: 'body', h1: 'h1', p: 'p',
+//html: "html", DOCTYPEhtml: '!DOCTYPE html', head: 'head', title: 'title', body: 'body', h1: 'h1', p: 'p',
 
-  //  htmlc: "/html", headc: '/head', titlec: '/title', bodyc: '/body', h1c: '/h1', pc: '/p',
+//  htmlc: "/html", headc: '/head', titlec: '/title', bodyc: '/body', h1c: '/h1', pc: '/p',
 //}
 
 export const Moduletemp = () => {
     return (
-        <div style={{textAlign:'center'}}>
-            <video width="80%"  controls>
-                <source src="m1v.mp4" type="video/mp4"/>
-                    <source src="m1v.ogg" type="video/ogg"/>
-                        Your browser does not support HTML video.
-</video>
-                
-                    {/*<div className="modbody">
+        <div>
+
+            {/*<div className="modbody">
                 <div className="backcontainl">
                     <div className="langside">HTML</div>
                     <div className="codemod" >

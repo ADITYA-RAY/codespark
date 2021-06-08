@@ -7,7 +7,7 @@ export const HTML4 = (props) => {
     return (
         <div>
 
-            <div className="container" id="scrolltotabcontent" >
+            <div className="container" id="scrolltotabcontent" style={{fontFamily:"calibri",fontSize:'19px'}}>
                 <div className="tabcontent">
                     <div className="childtabcontent">
                         <div id={props.infot.tab1} className="scrollhelper"></div>
