@@ -23,7 +23,7 @@ export const Slidefour = () => {
                                     <span className="sr-only">Next</span>
                                 </a>  
                             </div>
-                            <div id="carouselExampleControls1" className="carousel slide" data-ride="carousel" data-interval="false">
+                            <div id="carouselExampleControls1" className="carousel slide" data-ride="carousel" data-interval="8000">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
                                         <div className="article-card"data-aos="fade-up" >
@@ -111,7 +111,7 @@ export const Slidefour = () => {
                                     <span className="sr-only">Next</span>
                                 </a>  
                             </div>
-                            <div id="carouselExampleControls2" className="carousel slide" data-ride="carousel" data-interval="false">
+                            <div id="carouselExampleControls2" className="carousel slide" data-ride="carousel" data-interval="8000">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
                                         <div className="article-card"data-aos="fade-up">
@@ -199,7 +199,7 @@ export const Slidefour = () => {
                                     <span className="sr-only">Next</span>
                                 </a>  
                             </div>
-                            <div id="carouselExampleControls3" className="carousel slide" data-ride="carousel" data-interval="false">
+                            <div id="carouselExampleControls3" className="carousel slide" data-ride="carousel" data-interval="8000">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
                                         <div className="article-card"data-aos="fade-up">
