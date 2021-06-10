@@ -14,6 +14,7 @@ import { LearnHTML } from "./components/LearnHTML";
 import { LearnCSS } from "./components/LearnCSS";
 import { LearnJavascript } from "./components/LearnJavascript";
 import { Moduletemp } from "./components/Moduletemp";
+import { Articlebase } from "./components/Articlebase";
 
 
 
@@ -37,6 +38,7 @@ function App() {
         <Route path="/learncss" component={LearnCSS} />
         <Route path="/learnjavascript" component={LearnJavascript} />
         <Route path="/learnmodule" component={Moduletemp} />
+        <Route path="/article" component={Articlebase} />
       </Switch>
 
 
