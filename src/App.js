@@ -16,6 +16,7 @@ import { LearnJavascript } from "./components/LearnJavascript";
 import { Moduletemp } from "./components/Moduletemp";
 
 
+
 function App() {
   useEffect(() => {
     AOS.init({ duration: 1200 });
