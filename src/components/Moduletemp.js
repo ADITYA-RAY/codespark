@@ -76,7 +76,7 @@ export class Moduletemp extends React.Component {
 							<span className="input-group-text"
 								id="basic-addon1">
 								{" "}
-								title{" "}
+								Title{" "}
 							</span>
 						</div>
 						<input type="text" className="form-control"
