@@ -13,7 +13,7 @@ export class Moduletemp extends React.Component {
 		let data;
 
 		axios
-			.get("http://localhost:8000/api/articles/")
+			.get("http://codespark-backend.herokuapp.com/api/articles/")
 			.then((res) => {
 				data = res.data;
 				this.setState({
@@ -52,7 +52,7 @@ export class Moduletemp extends React.Component {
 		e.preventDefault();
 
 		axios
-			.post("http://localhost:8000/api/articles/", {
+			.post("codespark-backend.herokuapp.com/api/articles/", {
 				title: this.state.title,
 				writer: this.state.writer,
                 body: this.state.body,
