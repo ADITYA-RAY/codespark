@@ -13,7 +13,7 @@ export class Articlebase extends React.Component {
         let data;
 
         axios
-            .get("http://localhost:8000/api/articles/")
+            .get("https://codespark-backend.herokuapp.com/api/article/")
             .then((res) => {
                 data = res.data;
                 this.setState({
